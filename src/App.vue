@@ -6,13 +6,14 @@
         },
         data () {
             return {
-            message: 'Welcome to my Vue app!'
+                message: 'Welcome to my Vue app!'
             }
         }
     }
 </script>
 
 <template>
+    <Title/>
 </template>
 
 <style scoped>
