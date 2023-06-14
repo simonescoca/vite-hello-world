@@ -1,8 +1,10 @@
 <script>
     import Title from './components/AppTitle.vue'
+    import Jumbo from './components/Jumbo.vue'
     export default {
         components: {
-            Title
+            Title,
+            Jumbo
         },
         data () {
             return {
@@ -14,6 +16,7 @@
 
 <template>
     <Title/>
+    <Jumbo/>
 </template>
 
 <style scoped>
